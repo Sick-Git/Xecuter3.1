@@ -1,8 +1,10 @@
 # Xecuter3.1
 
+https://github.com/Sick-Git/Xecuter3.1/blob/main/Images/X3.1%20bottom.png
+
 Open source repo of an updated Xecuter 3 for the original xbox.
 
-New PCB hand routed designed in Autodesk Eagle with my .sch and .brd files attached. A lot of work went into this, but feel free to use this as you see fit.
+New PCB manually routed & designed in Autodesk Eagle.
 PCB gerbers in their respective folder.
 
 This design incorporates a simple opti-SSR device (5A) to control the +5V from the LPC port, which is 'always on' in version 1.6 consoles which caused a problem of the 5V tsop chips (2) and any connected LCD screen being on with the V1.6 Xbox switched off, but plugged into the mains. This now means you no longer need the messy +5V wire soldering to the voltage regulator anymore.
@@ -11,7 +13,8 @@ Opti-SSR by Vishay has no bounce or noise in operation. You can also opt no to i
 
 Added 5V filtering added for the TSOP's supply.
 Capacitors C1 & C2 brought in to CPLD pins as per pdf (like X3).
-Trace lengths shortened & optimised.
+Traces & placements optimised. (Lot of work)
+
 LCD 20 pin connector footprint modified to accept both vertical (purple X3) and horizontal (X3CE) type connectors.
 Size brought in to roughly 45mm square like X3.
 LCD contrast pot fooprint with twin resistor pads (R12 & R13) for tuning in pots from R10K to R20K due to scarce availability of thumbwheel pots of this size/pinout.
@@ -23,6 +26,8 @@ Onboard BIOS protect switch has been removed due to added confusion for users tr
 Also removes possibility of having flash protect switch on and having to disassemble whole xbox just to flash chip again! (X3 has backup flash and external flash protect anyway)
 
 BOM (bill of materials) added.
+
+The CPLD firmware has been compiled for you as the software to do this is both complicated for the average user and difficult to get hold of. The aim of this github is simply to make this available, easier and a slightly improved X3 overall for people to make themselves.
 
 Be aware the main flash TSOP chip has a few manufacturers including Fujitsu which have the wrong device ID's for this application. Make sure they are AMD made and ID with your supplier.
 (Updates to this github may come in due course to address TSOP ID's to add more ID's)
