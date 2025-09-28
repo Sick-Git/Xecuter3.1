@@ -1,4 +1,5 @@
 # Xecuter3.1
+
 Open source repo of an updated Xecuter 3 for the original xbox.
 
 New PCB hand routed designed in Autodesk Eagle with my .sch and .brd files attached. A lot of work went into this, but feel free to use this as you see fit.
@@ -30,10 +31,14 @@ After extensive investigation I can confirm that the original Xecuter 3 'Backup 
 
 I am also working to add OLED support to the original VHDL by Kekule used here.
 
-Mentions;
+Mentions,
 
 Kekule - VHDL
+
 Team-Donkey - open X3
+
 Ryzee119 - VHDL
+
 Ernegien - Registers
+
 
