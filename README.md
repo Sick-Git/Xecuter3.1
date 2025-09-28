@@ -37,6 +37,12 @@ After extensive investigation I can confirm that the original Xecuter 3 'Backup 
 
 I am also working to add OLED support to the original VHDL by Kekule used here.
 
+<img width="1042" height="1047" alt="X3 1 top" src="https://github.com/user-attachments/assets/8fa560ec-5106-40b0-854a-c1459ddcdde7" />
+
+
+<img width="1058" height="1040" alt="X3 1" src="https://github.com/user-attachments/assets/b956b4c4-f36f-4013-aef8-a84dae217ca9" />
+
+
 Mentions,
 
 Kekule - VHDL
