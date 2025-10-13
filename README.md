@@ -12,14 +12,14 @@ This design incorporates a simple opti-SSR device (5A) to control the +5V from t
 A large protection diode is added to protect the SSR from any inductive reverse current (unlikely) since the LCD is generally resistive, but even a wire has some inductance. An optional inline fuse for 5V is also there should you wish to add it, if not simply add a zero ohm resistor.
 Opti-SSR by Vishay has no bounce or noise in operation. You can also opt not to include the SSR V1.6 circuit entirely by simply adding zero ohm jumpers and leave off the diode as well for building specifically for Xbox versions 1.0 to 1.4.
 
+Overall size brought in to fractionally smaller than an original purple Xecuter 3.
 Added 5V filtering added for the TSOP's supply.
 Capacitors C1 & C2 brought in to CPLD pins as per pdf (like X3).
 Traces & placements optimised. (Lot of work)
 
 LCD 20 pin connector footprint modified to accept both vertical (purple X3) and horizontal (X3CE) type connectors. Watch your orientation, match the markers I have placed on the board for vertical.
-Size brought in to roughly 45mm square like X3.
 LCD contrast pot fooprint with twin resistor pads (R12 & R13) for tuning in pots from R10K to R20K due to scarce availability of thumbwheel pots of this size/pinout.
-Correct orientation of D0/HDD/LAN connector. All connectors now match original Xecuter 3 chips. (V1.6 +5V connector now not required)
+Correct orientation of D0/HDD/LAN connector. All connectors now match original Xecuter 3 chips, but see BOM for power/eject connector cable is pin 1 to pin 1 for Xecuter 3.1 (V1.6 +5V connector now not required).
 New Xecuter 3.1 logo.
 
 Order your PCB's in 1.2mm thick (best preference) and trim excess length of LPC header pins upon soldering in place for clean effect.
