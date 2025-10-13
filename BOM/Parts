@@ -4,8 +4,8 @@
 | 1   | VOR1003M4  SSR          | Opti-SSR         | SOP-4                      | Opti-SSR       | Solid State Relay           | 751-VQR1003M4 TCT-ND |
 | 1   | 2x8 pin header          | PINHD-2X8        | 2X08                       | JP1            | PIN HEADER                  | Aliexpress           |
 | 1   | Zero                    | Resistor         | 0603                       | R7             | 0ohm resistor               | 541-3927-1-ND        |
-| 3   | 0.1uF 50v               | CAP              | 0603                       | C1, C2 , C4    | Ceramic Capacitors          | 720-1689-1-ND        |
-| 1   | 10uF 25/50v             | CAP              | 0603                       | C5             | Ceramic Capacitor           |                      |
+| 3   | 0.1uF 50v               | CAP              | 0603                       | C1,C2,C3,C4    | Ceramic Capacitors          | 720-1689-1-ND        |
+| 1   | 10uF 6.3v               | CAP              | 0603  JMK107ABJ106MA-T     | C5             | Ceramic Capacitor           | 587-5869-1-ND        |
 | 1   | 0532610271              | 2P connector     | MOLEX_0532610271           | J3             | 1.25mm Pitch PicoBlade      | WM7620CT-ND          |
 | 1   | 0532610371              | 3P connector     | MOLEX_0532610371           | J4             | 1.25mm Pitch PicoBlade      | WM7621CT-ND          |
 | 1   | 100                     | RES ARRAY        | 0603-ARV                   | RN3            | Array Chip Resistor         | 42X083101JPCT-ND     |
