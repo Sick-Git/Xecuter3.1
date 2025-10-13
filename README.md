@@ -42,6 +42,8 @@ I am also working to add OLED support to the original VHDL by Kekule used here.
 
 <img width="1058" height="1040" alt="X3 1" src="https://github.com/user-attachments/assets/b956b4c4-f36f-4013-aef8-a84dae217ca9" />
 
+![X3 1 pic 3](https://github.com/user-attachments/assets/bec4b2f0-5408-484a-bda6-8e93ecd03fe7)
+
 
 Mentions,
 
